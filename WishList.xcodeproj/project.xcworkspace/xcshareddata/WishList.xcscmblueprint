@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C8469B17E5E4F6BA92D667A25B13A362DB2EBD0F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "C8469B17E5E4F6BA92D667A25B13A362DB2EBD0F" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "16ACBFB590A9E1151B4BE762DC3AC04A938B37EF" : 0,
+    "C8469B17E5E4F6BA92D667A25B13A362DB2EBD0F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "090B1BD7-9686-4263-AC1D-B7EBF2730E51",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "16ACBFB590A9E1151B4BE762DC3AC04A938B37EF" : "WishList\/WishList\/mixpanel-iphone\/",
+    "C8469B17E5E4F6BA92D667A25B13A362DB2EBD0F" : "wishlist\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WishList",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WishList\/WishList.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mixpanel\/mixpanel-iphone.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "16ACBFB590A9E1151B4BE762DC3AC04A938B37EF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/hpsoft.svn.cloudforge.com\/wishlist",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C8469B17E5E4F6BA92D667A25B13A362DB2EBD0F"
+    }
+  ]
+}

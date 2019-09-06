@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>production</key>
+	<dict>
+		<key>baseUrl</key>
+		<string>http://wishlist.whoat.net</string>
+	</dict>
+	<key>newServerDev</key>
+	<dict>
+		<key>baseUrl</key>
+		<string>http://52.90.162.124:80</string>
+	</dict>
+	<key>test</key>
+	<dict>
+		<key>baseUrl</key>
+		<string>http://wishlist.operislabs.com:80</string>
+	</dict>
+	<key>dev</key>
+	<dict>
+		<key>baseUrl</key>
+		<string>http://wishlist.operislabs.com</string>
+	</dict>
+	<key>env</key>
+	<string>production</string>
+</dict>
+</plist>

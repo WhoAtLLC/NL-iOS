@@ -1,0 +1,12 @@
+
+Encoding.default_external = Encoding::UTF_8
+Encoding.default_internal = Encoding::UTF_8
+
+app_identifier("com.root.wishlist") # The bundle identifier of your app
+apple_id("Shekhar.juneja@rootinfosol.com") # Your Apple email address
+team_id "DX34LHPEZ6"
+team_name ("WhoAt Inc.")
+
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
