@@ -16,7 +16,7 @@ class WLApi: NSObject {
         
         let loginUrl = WLAppSettings.loginurl(args)
 
-        print(loginUrl)
+        print("loginURL = " + loginUrl)
         manager.post(loginUrl, parameters: prepareObjects1(args), success: { (operation, responseObject) in
             
             if let _ = responseObject as? Dictionary<String, AnyObject> {

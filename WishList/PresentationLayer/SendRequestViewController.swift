@@ -310,7 +310,7 @@ class SendRequestViewController: UIViewController, UITextViewDelegate, UITableVi
                     loader.showActivityIndicator(self.view)
                     
                     let dynamicLinksDomainURIPrefix = "https://niceleads.page.link"
-                    let link = URL(string: "http://niceleads.com/accept")
+                    let link = URL(string: "https://niceleads.com/accept")
                     guard let linkBuilder = DynamicLinkComponents.init(link: link!, domainURIPrefix: dynamicLinksDomainURIPrefix) else{
                         print("could not create")
                         return

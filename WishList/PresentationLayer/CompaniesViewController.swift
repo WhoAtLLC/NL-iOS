@@ -434,7 +434,7 @@ class CompaniesViewController: UIViewController, UITableViewDataSource, UITableV
     
     @IBAction func btnLearnMoreHereTapped(_ sender: AnyObject) {
         
-        UIApplication.shared.openURL(URL(string: "http://wishlist.whoat.io/for-organizers.html")!)
+        UIApplication.shared.openURL(URL(string: "https://wishlist.whoat.io/for-organizers.html")!)
     }
     
     @IBAction func btnAddMoreFromCompaniesList(_ sender: AnyObject) {

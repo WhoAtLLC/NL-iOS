@@ -31,7 +31,7 @@ class WLAppSettings: NSObject {
     }
     
     class func loginurl(_ args: Dictionary<String, Any>)->String {
-        print(getBaseUrl())
+        print("baseURL = " + getBaseUrl())
         return getBaseUrl() + "/api/v1/login/"
     }
     

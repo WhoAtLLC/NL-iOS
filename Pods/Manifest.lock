@@ -145,7 +145,7 @@ DEPENDENCIES:
   - TwitterKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Bolts
     - Bugsee
     - FacebookCore
@@ -220,4 +220,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: b93584bb6959a63ab44776d32550b6ee04bdff2c
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.9.1

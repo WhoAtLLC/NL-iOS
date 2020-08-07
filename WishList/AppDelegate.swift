@@ -17,8 +17,8 @@ var rechability = Reachability()
 var unicDeviceToken = ""
 var requestIDGlobal = ""
 
-var AvailableServer = [["Server":"Development","HostUrl":"http://wishlist.operislabs.com","selected":false],
-                       ["Server":"Production","HostUrl":"http://wishlist.whoat.net","selected":true]]
+var AvailableServer = [["Server":"Development","HostUrl":"https://wishlist.operislabs.com","selected":false],
+                       ["Server":"Production","HostUrl":"https://wishlist.whoat.net","selected":true]]
 
 var SELECTED_HOST = "selected_host"
 var AVAILABLE_HOST = "available_host"

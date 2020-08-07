@@ -5,7 +5,7 @@
 	<key>production</key>
 	<dict>
 		<key>baseUrl</key>
-		<string>http://wishlist.whoat.net</string>
+		<string>https://wishlist.whoat.net</string>
 	</dict>
 	<key>newServerDev</key>
 	<dict>
@@ -15,12 +15,12 @@
 	<key>test</key>
 	<dict>
 		<key>baseUrl</key>
-		<string>http://wishlist.operislabs.com:80</string>
+		<string>https://wishlist.operislabs.com:80</string>
 	</dict>
 	<key>dev</key>
 	<dict>
 		<key>baseUrl</key>
-		<string>http://wishlist.operislabs.com</string>
+		<string>https://wishlist-staging.whoat.net</string>
 	</dict>
 	<key>env</key>
 	<string>production</string>
