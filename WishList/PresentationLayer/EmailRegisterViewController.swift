@@ -383,14 +383,15 @@ class EmailRegisterViewController: UIViewController, TSMessageViewProtocol {
             }, errorCallback: { (Void, NSError) -> Void in
                 print(NSError)
                 
+                
                 if let userI = NSError.userInfo as? [String: AnyObject] {
                     
                     if let rowData = userI[AFNetworkingOperationFailingURLResponseDataErrorKey] as? Data {
                         if let serializedData = (try? JSONSerialization.jsonObject(with: rowData, options: [])) as? [String: AnyObject] {
-                            
-                            if let title = serializedData["email"] as? [String] {
+                                                        
+                            if let email = serializedData["email"] as? [String] {
                                 
-                                if title[0] == "This field must be unique." {
+                                if email[0] == "LoginUser with this email address already exists." {
                                     let alert = UIAlertController(title: "Alert", message: "Email already registered, please try a new one.", preferredStyle: UIAlertController.Style.alert)
                                     alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
                                     self.present(alert, animated: true, completion: nil)
