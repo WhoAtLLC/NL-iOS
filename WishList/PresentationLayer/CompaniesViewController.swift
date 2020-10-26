@@ -1548,8 +1548,10 @@ extension CompaniesViewController{
             cell.lblPosition.text = member.short_bio
             cell.lblConnectionCount.text = "\(member.leads!)"
             if member.avatar?.characters.count > 0 {
-                
-                cell.imgMember.hnk_setImageFromURL(URL(string: WLAppSettings.getBaseUrl() + member.avatar!)!)
+                let url = URL(string: WLAppSettings.getBaseUrl() + member.avatar!)
+                if(url != nil) {
+                    cell.imgMember.hnk_setImageFromURL(url!)
+                }
             }
             
             cell.imgMember.makeThisRound
