@@ -2180,7 +2180,7 @@
 					"$(PROJECT_DIR)/WishList/Framework",
 				);
 				INFOPLIST_FILE = WishList/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = (
@@ -2283,7 +2283,7 @@
 					"$(PROJECT_DIR)/WishList/Framework",
 				);
 				INFOPLIST_FILE = WishList/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
