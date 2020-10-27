@@ -5,7 +5,7 @@
 	<key>production</key>
 	<dict>
 		<key>baseUrl</key>
-		<string>https://wishlist.whoat.net</string>
+		<string>https://api.niceleads.com</string>
 	</dict>
 	<key>newServerDev</key>
 	<dict>
@@ -20,7 +20,7 @@
 	<key>dev</key>
 	<dict>
 		<key>baseUrl</key>
-		<string>https://wishlist-staging.whoat.net</string>
+		<string>https://api-staging.niceleads.com</string>
 	</dict>
 	<key>env</key>
 	<string>production</string>

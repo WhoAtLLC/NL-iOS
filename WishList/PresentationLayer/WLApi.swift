@@ -50,7 +50,7 @@ class WLApi: NSObject {
                 }
             },
             failure: { (operation: AFHTTPRequestOperation!,error: Error!) in
-                //print("Error: " + error.localizedDescription)
+                print("Error: " + error.localizedDescription)
                 errorCallback((), error as NSError)
         })
     }
